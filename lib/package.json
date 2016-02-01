@@ -1,0 +1,23 @@
+{
+    "name": "nubiummessagingnode"
+  , "version": "2.1.21"
+  , "description": "Nubium Messaging Pub/Sub client for Node.js"
+  , "homepage": "http://messaging.nubium.io"
+  , "keywords": ["nubium", "ortc", "server", "library", "messaging"]
+  , "author": "Nubium Messaging <messaging@nubium.io>"
+  , "license": "MIT"
+  , "repository":{
+        "type": "git"
+      , "url": "git://github.com/nubium-io-corp/nubium-messaging-node.git"
+    }
+  , "dependencies": {
+		  "ws": "0.8.0"
+		, "request": "2.2.0"
+		, "dateformat": "1.0.2-1.2.3"
+    }
+  , "devDependencies": {
+
+	}
+  , "main": "index"
+  , "engines": { "node": "> 0.8" }
+}
